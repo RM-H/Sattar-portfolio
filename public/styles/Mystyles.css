@@ -1,0 +1,66 @@
+
+/*------------*/
+/*    font      */
+/*------------*/
+
+@font-face {
+    font-family: roboto;
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+body * {
+    font-family: roboto;
+
+
+}
+
+
+
+/*------------*/
+/*    core      */
+/*------------*/
+.h100 {
+    height: 100%;
+    flex: 1;
+
+}
+
+.dvhcontainer {
+    min-height: 90dvh;
+}
+
+
+
+/*------------*/
+/*    colors      */
+/*------------*/
+
+:root {
+    --clrone : #0d1e1a;
+    --clrtow:#455a64;
+}
+
+
+.bgclrone {
+    background-color: var(--clrone);
+}
+
+.bgclrtwo {
+    background-color: var(--clrtow);
+}
+
+
+
+/*------------*/
+/*    borders      */
+/*------------*/
+
+.borderrad1 {
+    border-radius: 0.6rem;
+}
+
+
+.borderclrtwo {
+    border: 1px solid var(--clrtow);
+    border-radius: 0.3rem;
+}
